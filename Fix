@@ -1,0 +1,4 @@
+$ npm install -g cloudflare-worker-local
+$ cloudflare-worker-local /path/to/worker.js localhost:3000 4000
+
+Listening on Port 4000 and forwarding requests to http://localhost:3000/
